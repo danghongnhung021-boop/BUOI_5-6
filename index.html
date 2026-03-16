@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CATO - Thế Giới Cafe Mèo</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+
+
+<body>
+     <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="./lgo.png" alt="MEOW Logo">
+            </a>
+        
+            <input type="checkbox" id="mobile-menu-toggle" class="menu-toggle-checkbox">
+            <label for="mobile-menu-toggle" class="menu-toggle-label">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <span class="section-subtitle text-accent"><i class="fas fa-paw"></i> Chào Mừng Đến Với</span>
+            <h1>Thiên Đường Của<br>Những Chú Mèo</h1>
+            <p>Nơi bạn có thể gác lại mọi âu lo, thưởng thức một tách trà ấm và tận hưởng sự chữa lành từ những người bạn bốn chân đáng yêu nhất.</p>
+            <a href="#menu" class="btn btn-primary">ORDER NOW</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container about-flex">
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?auto=format&fit=crop&w=800&q=80" alt="">
+            </div>
+            <div class="about-text">
+                <span class="section-subtitle"><i class="fas fa-heart"></i> Câu Chuyện Của CATO</span>
+                <h2 class="section-title">VỀ CHÚNG TÔI</h2>
+                <p>Bắt nguồn từ tình yêu thương động vật vô bờ bến, CATO Cafe không chỉ là một quán cà phê, mà còn là mái nhà của hơn 20 bé mèo cứu hộ. Chúng tôi muốn tạo ra một không gian nơi con người và động vật có thể kết nối bình yên.</p>
+                <p>Mọi thiết kế trong quán đều ưu tiên sự an toàn và thoải mái cho các "hoàng thượng". Không gian rộng rãi, sạch sẽ, không mùi, đảm bảo trải nghiệm tuyệt vời nhất cho các bạn yêu mèo.</p>
+                <br>
+                <a href="#cats" class="btn btn-primary">Làm Quen Các Bé Mèo &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Điểm Nổi Bật</span>
+                <h2 class="section-title">ĐIỀU SẼ GIỮ CHÂN BẠN LẠI TẠI CATO</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cat"></i></div>
+                    <h3>Dàn Boss Thân Thiện</h3>
+                    <p>Các bé mèo được tiêm phòng đầy đủ, tắm rửa sạch sẽ, vô cùng quấn người và sẵn sàng "câu giờ" của bạn cả ngày.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3>Đồ Uống Hảo Hạng</h3>
+                    <p>Menu đa dạng từ cà phê rang mộc nguyên chất đến các loại trà trái cây nhiệt đới tươi mát, decor siêu xinh xắn.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-couch"></i></div>
+                    <h3>Không Gian Sạch Sẽ</h3>
+                    <p>Trang bị hệ thống lọc không khí hiện đại, cam kết 100% không mùi hôi, mang lại không gian thư giãn tuyệt đối.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu-section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Thực Đơn Chữa Lành</span>
+                <h2 class="section-title">Món Ngon Cho Sen & Boss</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item">
+                    <div class="menu-info">
+                        <h3>Cà Phê Sữa Tươi Hình Chân Mèo</h3>
+                        <p>Espresso đậm đà kết hợp sữa tươi mềm mịn, rắc cacao.</p>
+                    </div>
+                    <div class="menu-price">55k</div>
+                </div>
+                <!-- Item 2 -->
+                <div class="menu-item">
+                    <div class="menu-info">
+                        <h3>Trà Đào Cam Sả Mát Lạnh</h3>
+                        <p>Giải nhiệt ngày hè với đào ngâm giòn rụm và sả thơm lừng.</p>
+                    </div>
+                    <div class="menu-price">45k</div>
+                </div>
+                <!-- Item 3 -->
+                <div class="menu-item">
+                    <div class="menu-info">
+                        <h3>Bánh Macaron Hình Thú</h3>
+                        <p>Set 3 chiếc bánh macaron tạo hình mặt mèo dễ thương.</p>
+                    </div>
+                    <div class="menu-price">65k</div>
+                </div>
+                <!-- Item 4 -->
+                <div class="menu-item">
+                    <div class="menu-info">
+                        <h3>Matcha Đá Xay Nắp Kem</h3>
+                        <p>Trà xanh Nhật Bản thơm chát nhẹ, phủ lớp kem phô mai.</p>
+                    </div>
+                    <div class="menu-price">59k</div>
+                </div>
+                <!-- Item 5 -->
+                <div class="menu-item special">
+                    <div class="menu-info">
+                        <h3><i class="fas fa-fish"></i> Súp Thưởng Cho Mèo (Túi)</h3>
+                        <p>Bí kíp để trở thành người được các hoàng thượng săn đón.</p>
+                    </div>
+                    <div class="menu-price" style="color: var(--primary);">20k</div>
+                </div>
+                <!-- Item 6 -->
+                <div class="menu-item special">
+                    <div class="menu-info">
+                        <h3><i class="fas fa-bone"></i> Hạt Dinh Dưỡng Cao Cấp</h3>
+                        <p>Khẩu phần ăn nhẹ thơm ngon giúp làm quen với các bé.</p>
+                    </div>
+                    <div class="menu-price" style="color: var(--primary);">15k</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- (Our Gallery) -->
+     <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle"><i class="fas fa-camera"></i> Khoảnh Khắc</span>
+                <h2 class="section-title">Hình Ảnh Tại CATO</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Hàng 1 -->
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                
+                <!-- Hàng 2 -->
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=600&q=80" alt=""></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=600&q=80" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Góc Nhỏ Của Mèo</span>
+                <h2 class="section-title">Cẩm Nang Làm Sen</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Blog 1 -->
+                <article class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Mẹo Vặt</span>
+                        <h3><a href="#">Cách làm quen với một chú mèo lạ mà không bị quạo</a></h3>
+                        <p>Đừng vội lao vào ôm ấp nhé! Hãy thử đưa tay ra cho bé ngửi mùi trước, vuốt nhẹ dưới cằm thay vì đỉnh đầu...</p>
+                    </div>
+                </article>
+                <!-- Blog 2 -->
+                <article class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=800&q=80" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Sức Khỏe Tâm Lý</span>
+                        <h3><a href="#">Lý giải khoa học: Tiếng gừ gừ của mèo giúp giảm stress</a></h3>
+                        <p>Bạn có biết tần số âm thanh gừ gừ của mèo được chứng minh là có khả năng hỗ trợ chữa lành và giảm huyết áp?</p>
+                    </div>
+                </article>
+                <!-- Blog 3 -->
+                <article class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Thông Báo</span>
+                        <h3><a href="#">Chào mừng bé Bông - Thành viên mới của gia đình</a></h3>
+                        <p>Bé Bông là một cô mèo Anh lông dài được chúng mình cứu hộ từ tháng trước. Hiện tại bé đã khỏe mạnh...</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section reviews-section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle"><i class="fas fa-star"></i> Đánh Giá Từ Khách Hàng</span>
+                <h2 class="section-title">Các "Sen" Nói Gì Về CATO?</h2>
+                <div class="divider" style="background-color: var(--accent);"></div>
+            </div>
+            
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>Mèo siêu ngoan!</h3>
+                    <p>"Lần đầu tiên đi cafe mèo rất là vui được chơi với nhiều em "đào". Đồ uống cũng rất vừa miệng, không bị ngọt gắt."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">L</div>
+                        <div class="reviewer-name">Thanh Thương, Sinh Viên</div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>Không gian sạch, không mùi</h3>
+                    <p>"Mình bị nhạy cảm với mùi nhưng phải công nhận quán xử lý mùi quá tốt. Máy lọc không khí chạy êm, mấy bé mèo lông mượt xỉu."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">M</div>
+                        <div class="reviewer-name">Hải Trần, Nhân viên VP</div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>Góc chạy deadline tuyệt vời</h3>
+                    <p>"Mình hay ra đây làm việc. Vừa gõ phím vừa có bé mèo nằm ngoe nguẩy đuôi bên cạnh làm tinh thần thoải mái hẳn."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">H</div>
+                        <div class="reviewer-name">Phương Thanh, Freelancer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Cats Section -->
+    <section id="cats" class="section cats-section">
+        <div class="container text-center">
+            <span class="section-subtitle">Nhân Sự Nòng Cốt</span>
+            <h2 class="section-title">Gương Mặt Dàn "Boss" Quyền Lực</h2>
+            <div class="divider"></div>
+            
+            <div class="cats-grid">
+                <!-- Cat 1 -->
+                <div class="cat-card">
+                    <div class="cat-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=400&q=80" alt="">
+                    </div>
+                    <h3>Mập</h3>
+                    <p>Giám đốc ngủ nướng</p>
+                </div>
+                <!-- Cat 2 -->
+                <div class="cat-card">
+                    <div class="cat-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=400&q=80" alt="">
+                    </div>
+                    <h3>Chuột</h3>
+                    <p>Trưởng phòng tấu hài</p>
+                </div>
+                <!-- Cat 3 -->
+                <div class="cat-card">
+                    <div class="cat-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=400&q=80" alt="">
+                    </div>
+                    <h3>Chấu Đọ</h3>
+                    <p>Kiểm soát an ninh</p>
+                </div>
+                <!-- Cat 4 -->
+                <div class="cat-card">
+                    <div class="cat-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=400&q=80" alt="">
+                    </div>
+                    <h3>Mỹ Dịu</h3>
+                    <p>Đại sứ hình ảnh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+        <section id="contact" class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title text-center">Đặt Bàn / Giữ Chỗ</h2>
+            
+            <form action="#" class="custom-form">
+                <div class="form-layout">
+                    <!-- 3 Ô bên trái -->
+                    <div class="form-left">
+                        <input type="text" placeholder="Tên của bạn" class="form-control" required>
+                        <input type="text" placeholder="Email / Số điện thoại" class="form-control" required>
+                        <input type="text" placeholder="Chủ đề (VD: Đặt bàn)" class="form-control" required>
+                    </div>
+                    <!-- Ô lời nhắn lớn bên phải -->
+                    <div class="form-right">
+                        <textarea placeholder="Lời nhắn thêm..." class="form-control" required></textarea>
+                    </div>
+                </div>
+                <!-- Nút gửi bên dưới, căn trái -->
+                <div class="submit-wrap">
+                    <button type="submit" class="btn btn-primary">Gửi Thông Tin</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 2. Thông tin liên hệ (Hình nền, 3 cột) -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="info-grid">
+                <!-- Cột 1 -->
+                <div class="info-col">
+                    <h3>Địa Chỉ</h3>
+                    <p>123 Đường Mèo Hen<br>Quận Ba Đình, Hà Nội 10001</p>
+                </div>
+                <!-- Cột 2 -->
+                <div class="info-col">
+                    <h3>Giờ Mở Cửa</h3>
+                    <p>Thứ 2 đến Chủ Nhật<br>08:30 - 22:30</p>
+                </div>
+                <!-- Cột 3 -->
+                <div class="info-col">
+                    <h3>Liên Hệ</h3>
+                    <p>Hotline: 0988 123 456<br>Email: hello@catocafe.vn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <!-- Cột Logo (bên trái) -->
+            <div class="footer-logo">
+            <img src="./lgo.png" alt="MEOW Logo">
+            </div>
+            
+            <!-- Cột Copyright (ở giữa) -->
+            <div class="footer-copyright">
+                &copy; 2026 CATO Cafe. By Hồng Nhung.
+            </div>
+            
+            <!-- Cột Mạng xã hội (bên phải) -->
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-reddit-alien"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>

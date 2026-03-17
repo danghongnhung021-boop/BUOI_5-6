@@ -870,7 +870,8 @@
 
         .footer-social a:hover {
             transform: translateY(-3px);
-            background-color: #09a986;
+            background-color: #fbfbfb;
+            color: #ea580c;
         }
 
         /* 14. RESPONSIVE ĐIỆN THOẠI */

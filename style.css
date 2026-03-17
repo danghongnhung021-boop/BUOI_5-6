@@ -861,14 +861,14 @@
             justify-content: center;
             width: 42px;
             height: 42px;
-            background-color: #ea580c; /* Nền xanh ngọc sáng giống ảnh mẫu */
+            background-color: #ea580c; 
             color: var(--white);
-            border-radius: 8px; /* Bo góc vuông hơi tròn giống ảnh */
+            border-radius: 8px; 
             font-size: 1.2rem;
             transition: transform 0.3s ease, background-color 0.3s ease;
         }
 
-        .footer-social a:hover {
+             .footer-social a:hover {
             transform: translateY(-3px);
             background-color: #fbfbfb;
             color: #ea580c;

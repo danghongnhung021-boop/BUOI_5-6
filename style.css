@@ -152,7 +152,7 @@
             color: var(--secondary);
         }
 
-        /* Checkbox Hack cho Mobile Menu (Không dùng JS) */
+        /* Checkbox Hack cho Mobile Menu */
         .menu-toggle-checkbox {
             display: none;
         }
